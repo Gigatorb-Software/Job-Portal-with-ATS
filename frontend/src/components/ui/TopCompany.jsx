@@ -73,7 +73,7 @@ const TopCompany = () => {
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 {card.description}
               </p>
-              <div className="  space-x-40">
+              <div className=" md:space-x-2 ">
               <a
                 href="#"
                 className="inline-flex tracking-wide  uppercase items-center px-4 py-3 text-sm font-bold text-center hover:text-white hover:bg-[#254E58] rounded-lg bg-white text-[#254E58]   border focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
