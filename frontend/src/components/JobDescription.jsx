@@ -7,7 +7,7 @@ import { APPLICATION_API_END_POINT, JOB_API_END_POINT } from '@/utils/constant';
 import { setSingleJob } from '@/redux/jobSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'sonner';
-import Navbar from './shared/Navbar';
+import Navbar from './Landing page/Navbar';
 
 const JobDescription = () => {
     const {singleJob} = useSelector(store => store.job);

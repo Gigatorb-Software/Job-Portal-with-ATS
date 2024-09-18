@@ -1,10 +1,15 @@
 import React from "react";
 import image from "../../assets/google.webp";
-import logo from "../../assets/google-logo.webp"; // Assuming you have a logo image
+import logo from "../../assets/google-logo-.png"; // Assuming you have a logo image
 import infosys from "../../assets/infosys.png";
 import infosyspic from "../../assets/infosyspic.webp";
 import wipro from "../../assets/wipro.jpg";
 import wiprologo from "../../assets/wiprologo.png";
+import tcslogo from "../../assets/tcs-logo.png";
+import tcsimage from "../../assets/tcs-image.jpg";
+import ibmlogo from "../../assets/ibm-logo.png";
+import ibmimage from "../../assets/ibm-image.webp";
+import corporate from "../../assets/corporate.jpg";
 
 const TopCompany = () => {
   // Data for each card
@@ -30,6 +35,27 @@ const TopCompany = () => {
       description:
         "With so many different types of companies with distinct sets of values and mission statements, brainstorming the right kind of organization culture for your business can be challenging.",
     },
+    {
+      imageSrc: tcsimage,
+      logoSrc:  tcslogo,
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.enterprise technology acquisitions of 2021 so far, in reverse chronological ",
+    },
+    {
+      imageSrc: ibmimage,
+      logoSrc: ibmlogo,
+      title: "Another noteworthy acquisition",
+      description:
+        "Companies with positive, vibrant cultures attract the best talent to their teams and produce better products and services since their employees are more motivated to give 100% daily.",
+    },
+    {
+      imageSrc: corporate,
+      logoSrc: wiprologo,
+      title: "Tech acquisition insights",
+      description:
+        "With so many different types of companies with distinct sets of values and mission statements, brainstorming the right kind of organization culture for your business can be challenging.",
+    },
   ];
 
   return (
@@ -48,7 +74,7 @@ const TopCompany = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            className="bg-white border border-gray-200 rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700"
           >
             <div className="relative">
               <img

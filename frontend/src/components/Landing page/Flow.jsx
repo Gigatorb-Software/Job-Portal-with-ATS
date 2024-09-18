@@ -20,7 +20,7 @@ const Flow = () => {
                   title: 'Create a free account',
                   description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
                   icon: (
-                    <svg className="w-10 h-10 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-10 h-10  text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
                   ),
@@ -45,7 +45,7 @@ const Flow = () => {
                 },
               ].map((item, index) => (
                 <li key={index} className="relative flex items-start">
-                  <div className="relative flex items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-full shadow">
+                  <div className="relative flex items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-full shadow-lg">
                     {item.icon}
                   </div>
                   <div className="ml-6">

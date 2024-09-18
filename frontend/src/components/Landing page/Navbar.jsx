@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className={`fixed top-0 left-0 right-0 z-50 transition-colors ${navbarBgClass}`}>
             <div className={`flex items-center md:px-8 justify-between mx-auto max-w-7xl h-16`}>
                 <div>
-                    <h1 className={`text-2xl font-bold ${textColorClass}`}>
+                    <h1 className={`text-3xl font-bold ${textColorClass}`}>
                         Job<span className='text-[#F83002]'>Portal</span>
                     </h1>
                 </div>

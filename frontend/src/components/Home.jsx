@@ -1,20 +1,19 @@
 import React, { useEffect } from "react";
-import Navbar from "./shared/Navbar";
-import HeroSection from "./HeroSection";
-import CategoryCarousel from "./CategoryCarousel";
+import Navbar from "./Landing page/Navbar";
+import CategoryCarousel from "./Landing page/CategoryCarousel";
 import LatestJobs from "./LatestJobs";
-import Footer from "./shared/Footer";
+import Footer from "./Landing page/Footer";
 import useGetAllJobs from "@/hooks/useGetAllJobs";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import HeroSections from "./HeroSections";
-import Features from "./ui/Features";
-import Logo from "./ui/Logo";
-import { Photo } from "./ui/Photo";
-import CallToAction from "./ui/CallToAction";
-import TopCompany from "./ui/TopCompany";
-import Flow from "./ui/Flow";
-import Pricing from "./Pricing";
+import HeroSection from "./Landing page/HeroSection";
+import Features from "./Landing page/Features";
+import Logo from "./Landing page/Logo";
+import { Photo } from "./Landing page/Photo";
+import CallToAction from "./Landing page/CallToAction";
+import TopCompany from "./Landing page/TopCompany";
+import Flow from "./Landing page/Flow";
+import Pricing from "./Landing page/Pricing";
 
 const Home = () => {
   useGetAllJobs();
@@ -28,12 +27,10 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroSections />
-      <Features />
+<HeroSection/>      <Features />
 
       <Flow/>
       <TopCompany />
-      <HeroSection />
 
       <CategoryCarousel />
       <LatestJobs />
