@@ -9,7 +9,7 @@ const Features = () => {
         experience.
       </h6>
 
-      <div className="flex flex-col items-center flex-wrap lg:flex-row lg:items-stretch lg:flex-no-wrap lg:justify-between">
+      <div className="flex flex-col items-center flex-nowrap lg:flex-row lg:items-stretch lg:flex-no-wrap lg:justify-between">
         <div className="w-full max-w-sm mt-6 lg:mt-8 bg-gray-100 rounded shadow-lg p-12 lg:p-8 lg:mx-4 xl:p-12">
           <div className="p-2 inline-block bg-indigo-200 rounded-lg">
             <svg

@@ -13,6 +13,8 @@ import Logo from "./ui/Logo";
 import { Photo } from "./ui/Photo";
 import CallToAction from "./ui/CallToAction";
 import TopCompany from "./ui/TopCompany";
+import Flow from "./ui/Flow";
+import Pricing from "./Pricing";
 
 const Home = () => {
   useGetAllJobs();
@@ -28,10 +30,14 @@ const Home = () => {
       <Navbar />
       <HeroSections />
       <Features />
+
+      <Flow/>
       <TopCompany />
       <HeroSection />
+
       <CategoryCarousel />
       <LatestJobs />
+      <Pricing/>
       <Logo />
       <Photo />
       <CallToAction />
